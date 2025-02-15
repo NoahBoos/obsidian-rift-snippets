@@ -1,0 +1,29 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Obsidian - Rift's Snippets".
+*/
+
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information. This file should be located in the root directory of the project.
+
+Original source code from Noah Boos (aka Rift).
+This file is part of the "Obsidian - Rift's Snippets" project.
+*/
+
+/* GitHub Repository : N'EXISTE PAS // DOES NOT EXISTS */
+
+/* Allow the Inline Title to be constantly hidden undependently of the active view. */
+.mod-header > .inline-title {
+    display: none;
+}
+
+/* Allow the Inline Title to be constantly hidden depending on if the active view is the editing mode. */
+.workspace-leaf-content[data-mode="source"] .cm-sizer > .inline-title {
+    display: none;
+}
