@@ -1,0 +1,281 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Obsidian - Rift's Snippets".
+*/
+
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information. This file should be located in the root directory of the project.
+
+Original source code from Noah Boos (aka Rift).
+This file is part of the "Obsidian - Rift's Snippets" project.
+*/
+
+/* GitHub Repository : N'EXISTE PAS // DOES NOT EXISTS */
+
+/* Tableau */
+.mbr-table {
+    border: 1px solid var(--color-base-100);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Lignes */
+.mbr-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+/* Effets de hover des cellules */
+.mbr-cell-1:hover,
+.mbr-cell-2:hover,
+.mbr-cell-3:hover,
+.mbr-cell-4:hover,
+.mbr-cell-5:hover,
+.mbr-cell-6:hover,
+.mbr-cell-7:hover,
+.mbr-cell-8:hover,
+.mbr-cell-9:hover,
+.mbr-cell-10:hover,
+.mbr-cell-11:hover,
+.mbr-cell-12:hover {
+    background-color: var(--text-accent);
+}
+
+/* Cellules */
+.mbr-cell-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 3;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 4;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 6;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 7;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 8;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-9 {
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 9;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 10;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 11;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-cell-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-base-100);
+    padding: 4px 8px;
+    flex-grow: 12;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+/* Cellules imbriquées */
+.mbr-imbricating-cell-1 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-2 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-3 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 3;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-4 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 4;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-5 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-6 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 6;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-7 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 7;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-8 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 8;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-9 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 9;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-10 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 10;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-11 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 11;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
+
+.mbr-imbricating-cell-12 {
+    /* border: 1px solid var(--color-base-100); */
+    display: inline-flex;
+    flex-grow: 12;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 12);
+}
