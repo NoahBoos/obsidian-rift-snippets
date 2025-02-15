@@ -1,0 +1,30 @@
+/* Crédit en français
+Copyright (c) 2024 Noah Boos (aka Rift).
+Ce code est protégé par les droits d'auteurs, vos droits à l'égard de ce code sont définis par la license accompagné avec le projet.
+Voir le fichier "LICENSE.md" pour plus d'informations. Il devrait être situé à la racine du projet.
+
+Code source original de Noah Boos (aka Rift).
+Ce fichier fait partie du projet "Obsidian - Rift's Snippets".
+*/
+
+/* English credits
+Copyright (c) 2024 Noah Boos (aka Rift).
+This code is protected by copyright law. Your rights regarding this code are defined by the accompanying license.
+Please refer to the file named "LICENSE.md" for more information. This file should be located in the root directory of the project.
+
+Original source code from Noah Boos (aka Rift).
+This file is part of the "Obsidian - Rift's Snippets" project.
+*/
+
+/* GitHub Repository : N'EXISTE PAS // DOES NOT EXISTS */
+.textbook-bg-grid {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.textbook-bg-dotted {
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
